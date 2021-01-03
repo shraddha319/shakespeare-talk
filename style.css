@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+
+
+:root {
+    --primary-color: black;
+    --dark-gray: #6B7280; 
+    --background-color: white;
+}
+
+body {
+    font-family: 'Pirata One', cursive;
+    background-image: url("images/shakespeare.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.container-center {
+    width: 650px;
+    margin: auto;
+}
+
+.button {
+    display: block;
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    font-family: inherit;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+
+
+.hero-text {
+    text-align: center;
+    color: var(--background-color);
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.text-input, .text-output {
+    width: 600px;
+    height: 150px;
+    border: 1px solid var(--dark-gray);
+    border-radius: 1rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 2rem;
+    opacity: 0.6;
+}
+
+
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-top-right-radius: 2rem;
+    text-align: center;
+}
+
+.footer .link {
+    color: white;
+}
